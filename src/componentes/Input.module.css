@@ -1,0 +1,28 @@
+.task {
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 8px;
+    width: 46rem;
+    padding: 1rem;
+    z-index: 2;
+}
+
+.task input {
+    width: 100%;
+    padding: 1rem;
+    border: 0;
+    border-radius: 0.25rem;
+    background: var(--gray-500);
+    color: var(--gray-300);
+}
+
+.task input:not(:placeholder-shown) {
+    color: var(--gray-100);
+}
+
+
+:focus {
+    outline: 1px solid var(--purple-dark);
+}
